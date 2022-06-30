@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #f7e4e0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#header .logo{
+    margin-left: 30px;
+    
+}
+#header .menu{
+    list-style: none;    /* bỏ chấm tròn */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#header .menu li{
+    display: inline;
+    margin-right: 15px;
+    
+}
+#header .menu li a {
+    text-decoration: none; /*xóa gạch chân thẻ a href */
+    color: black;
+    
+}/*carousel*/
+
+#carousel{
+    background: url("./images/BG.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover; /*cover lại size hình*/
+    background-position: center;
+}
+#Activities{
+    background-color: #faf4f2;
+    /*
+    padding-top: 100px; --> Viết tắt như dưới
+    padding-bottom: 100px; */
+    padding: 100px 0;
+}
+#Activities .title{
+    text-align: center;
+    color: gray;
+}
+.list_activities{
+    margin-top: 50px;
+}
+.list_activities .item {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box; /*tự tính toán kích thước chuẩn, đều khi chia bố cục hàng ngang*/
+}
+
+.list_activities .item .text{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+.list_activities .img_thumb img{
+    width: 100%;
+    border-radius: 20px;
+}
+.list_activities .img_thumb {
+    position: relative;
+}
+.list_activities .img_thumb i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffffff5e;
+    border-radius: 10px;
+}
+.list_activities .item .text h3{
+    font-size: 22px;
+    margin: 15px 0;
+}
+.list_activities .item .text p{
+    margin-bottom: 20px;
+    color: gray;
+}
+.list_activities .item .text button{
+    border: none;
+    padding: 20px 60px;
+    border-radius: 40px;
+    color: gray;
+}
+.view-all {
+    text-align: center;
+}
+.btn-view-all {
+    border: 1px solid orange; /*độ dày viền 1px, solid: nét liền */
+    padding: 15px 50px;
+    border-radius: 30px;
+    color: orange;
+    background-color: transparent;
+    cursor: pointer;/*rê chuột vô sẽ hiện hình bàn tay */
+}
+.clear {
+    clear: both;
+}
